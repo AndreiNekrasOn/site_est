@@ -1,11 +1,37 @@
+/*Scroll-bar trick, look here for more: https://css-tricks.com/almanac/properties/s/scrollbar/*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 .jumbotron {
     position: relative;
-    background: url(../img/top-image.jpg);
+    background: url(../img/top-image-big.jpg);
     background-size: 30%;
     background-repeat: repeat;
     color: white;
     margin: 0px !important;
 }
+
+.jumbotron h2 {
+    width: 30px;
+}
+
 
 .bg-blue-own{
     background-color: lightskyblue;
@@ -31,9 +57,32 @@
     margin-right: 50px;   
 }
 
-#nav.affix {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index:10;
+.avatar {
+    border-radius: 100%;
+}
+
+#description {
+    margin-top: 50px;
+    position: relative;
+    height: 220px;
+    overflow-y: scroll;
+    text-overflow: clip;
+}
+
+#description .avatar {
+    position: absolute;
+    left: 0;
+}
+#description p {
+    position: absolute;
+    right: 10px;
+    width: 60%;
+}
+
+.gallery {
+    margin-top: 50px;
+}
+
+.gallery h2 {
+    padding: 30px;
 }
