@@ -33,7 +33,7 @@
 }
 
 
-.bg-blue-own{
+.bg-own{
     background-color: lightskyblue;
 }
 
@@ -79,13 +79,13 @@
     width: 60%;
 }
 
-.gallery {
-    margin-top: 50px;
+
+.edu-gallery{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.gallery h2 {
-    padding: 30px;
-}
+
 .content {
     position: relative;
     width: 600px;
