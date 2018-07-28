@@ -86,3 +86,24 @@
 .gallery h2 {
     padding: 30px;
 }
+.content {
+    position: relative;
+    width: 600px;
+    margin: 0 30%;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+#price{
+    box-sizing: border-box;
+    margin: auto;
+
+}
+#what{
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+#point2{
+    box-sizing: border-box;
+    margin-top: 50px;
+}
