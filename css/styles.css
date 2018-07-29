@@ -21,8 +21,6 @@
 
 .jumbotron {
     position: relative;
-    background: url(../img/top-image-big.jpg);
-    background-size: 30%;
     background-repeat: repeat;
     color: white;
     margin: 0px !important;
@@ -34,10 +32,10 @@
 
 .parallax {
     /* The image used */
-    background-image: url("../img/top-image-big.jpg");
+    background-image: url("../img/jumbotron-city.jpg");
 
     /* Set a specific height */
-    height: 300px;
+    height: 450px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
