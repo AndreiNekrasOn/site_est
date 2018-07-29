@@ -32,6 +32,19 @@
     width: 30px;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("../img/top-image-big.jpg");
+
+    /* Set a specific height */
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
 
 .bg-own{
     background-color: lightskyblue;
@@ -80,7 +93,7 @@
 }
 
 
-.edu-gallery{
+section {
     margin-top: 100px;
     margin-bottom: 100px;
 }
