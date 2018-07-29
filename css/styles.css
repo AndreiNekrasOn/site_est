@@ -98,6 +98,9 @@ section {
     margin-bottom: 100px;
 }
 
+.partner-logo {
+    border-radius: 100%;
+}
 
 .content {
     position: relative;
