@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /*Scroll-bar trick, look here for more: https://css-tricks.com/almanac/properties/s/scrollbar/*/
 /* width */
 ::-webkit-scrollbar {
@@ -48,6 +53,19 @@
     background-color: lightskyblue;
 }
 
+.CTA {
+    position: absolute;
+    background-color: aquamarine;
+    right: 50px;
+    border-radius: 20%;
+    border: none;
+}
+
+
+.CTA:hover {
+    background-color: palegreen;
+}
+
 .contacts {
     position: absolute;
     background-color: white;
@@ -62,6 +80,7 @@
     position: relative;
     margin-top: 0px;
     padding-top: 0px;
+    box-shadow: 0 8px 20px 2px #DEDEE3;
 }
 
 .nav-item.dropdown{
@@ -99,6 +118,14 @@ section {
 .partner-logo {
     border-radius: 100%;
 }
+
+
+
+footer {
+    box-shadow: 0 -8px 20px 2px #DEDEE3;
+}
+
+/*-----------------------------------------------*/
 
 .content {
     position: relative;

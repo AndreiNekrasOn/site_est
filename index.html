@@ -16,10 +16,15 @@
 <body>
     <header>
         <div class="jumbotron parallax"> 
-            <h2 ><strong>Крутецкое название</strong></h2>
+            <p class="display-4">Крутецкое название</p>
             <div class="contacts">
-                Контакты:<br> +00000000000 <br> +00000000000 <br> +00000000000 
+                <p class="lead">Контакты:<br> +00000000000 <br> +00000000000 <br> +00000000000</p>
             </div>
+            <a href="#order">
+                <button type="button" class="btn btn-lg CTA">
+                    <p class="py-0 px-1">Заказать оценку</p>
+                </button>
+            </a>
         </div>
 
         <div id="nav">   
@@ -65,7 +70,7 @@
     <main>
         <div class="container">
             
-            <div id ="description">
+            <section id ="description">
                  <img class = "avatar" src="img/avatar.png" width="20%" >
                  <p>
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -80,7 +85,18 @@ voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
 ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
 
                  </p>
-            </div>
+            </section>
+                
+                
+            <section id ="order" class="bg-light p-5">
+                <h3>
+                    Закажите оценку в два шага!
+                </h3>
+                <ul class="mx-5 lead">
+                    <li>Шаг один</li>
+                    <li>Шаг два</li>
+                </ul>
+            </section>
             
             
             <section class = "edu-gallery">
@@ -176,20 +192,17 @@ ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
            <div class="row">
             <div class="col-12 col-md">
                 <h2>Крутецкое название</h2>
-              <small class="d-block mb-3 text-muted">© 2017-2018 &nbsp; &nbsp; &nbsp; &nbsp; Все права защищены</small>
+              
             </div>
-
-            <div class="float-right">
-              <h5>Контакты</h5>
-              <ul class="list-unstyled text-small">
-                <li><p class="text-muted">email</p></li>
-                <li><p class="text-muted">+00000000000</p></li>
-                <li><p class="text-muted">+00000000000</p></li>
-              </ul>
+            <div class="col-12 col-md">
+                <small class="d-block mb-3 text-muted">© 2017-2018 &nbsp; &nbsp; &nbsp; &nbsp; Все права защищены</small>
+              
             </div>
+            
+            
           </div>
       </div>
-    </footer>
+</footer>
     
     
     <!-- Bootstrap js -->
