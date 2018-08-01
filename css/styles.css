@@ -35,6 +35,11 @@
     width: 30px;
 }
 
+.jumbotron a {
+    text-decoration: none;
+    color: white !important
+}
+
 .parallax {
     /* The image used */
     background-image: url("../img/jumbotron-city.jpg");
