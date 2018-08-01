@@ -2,28 +2,39 @@
 <html lang="ru">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <!--Bootstrap lightbox -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
     <!--styles for social-media icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- это моя бутстраповская таблица ее не удаляй плз --><meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    p{
+    	margin-left: 20px;
+    }
+
+	</style>
+
 </head>
 
-<body>
+<body class="color-block blue-gradient">
     <header>
-        <div class="jumbotron parallax">
-            <h2><strong>Крутецкое название</strong></h2>
+        <div class="jumbotron">
+            
+            <h2 ><strong>Крутецкое название</strong></h2>
             <div class="contacts">
-                Контакты:<br> +00000000000 <br> +00000000000 <br> +00000000000
+                Контакты:<br> +00000000000
             </div>
         </div>
 
-        <div id="nav">
-            <nav class="navbar navbar-expand-lg navbar-light bg-own">
+                <div id="nav">   
+            <nav class="navbar navbar-expand-lg navbar-light bg-blue-own">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-line">
                     <span class="navbar-toggler-icon"></span>
               </button>
@@ -33,25 +44,25 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown">Недвижимость</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="index2.html">Что это?</a>
-                                <a class="dropdown-item" href="index2.html">Цены</a>
-                                <a class="dropdown-item" href="index2.html">Пункт 3</a>
+                                <a class="dropdown-item" href="#what">Что это?</a>
+                                <a class="dropdown-item" href="#price">Цены</a>
+                                <a class="dropdown-item" href="#point3">Пункт 3</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown">Движимость</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="index2.html">Что это?</a>
-                                <a class="dropdown-item" href="index2.html">Цены</a>
-                                <a class="dropdown-item" href="index2.html">Пункт 3</a>
+                                <a class="dropdown-item" href="#what">Что это?</a>
+                                <a class="dropdown-item" href="#price">Цены</a>
+                                <a class="dropdown-item" href="#point2">Пункт 3</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown">Бизнес</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Что это?</a>
-                                <a class="dropdown-item" href="#">Цены</a>
-                                <a class="dropdown-item" href="#">Пункт 3</a>
+                                <a class="dropdown-item" href="#what">Что это?</a>
+                                <a class="dropdown-item" href="#price">Цены</a>
+                                <a class="dropdown-item" href="#point2">Пункт 3</a>
                             </div>
                         </li>
 
@@ -60,82 +71,113 @@
             </nav>
         </div>
     </header>
-
-
+    
+    
     <main>
-        <div class="content">
-            <div id="price">
-                <h2>Цены и услуги</h2>
-                <ul>
-                    <li>sdfkjhdfdsf</li>
-                    <li>sdfkjhdfdsf</li>
-                    <li>sdfkjhdfdsf</li>
-                    <li>sdfkjhdfdsf</li>
-                    <li>sdfkjhdfdsf</li>
-                    <li>sdfkjhdfdsf</li>
-                    <li>sdfkjhdfdsf</li>
-                </ul>
-            </div>
-            <div id="what">
-                <h2>Что это?</h2>
-                <p>
-                    kjnlkjnlkjsnvkjnsfvsvlkm;lskmfdv;lkm;lkfsmln sdvsdfvsfd vsfvsfvsflkvjknskmlfkvmlkfvsfbsfvgndgstgslgfjhjhiuhsd gfsfvjnslfkjvnlkjnlfkjnvlkjnldfkjnvlkj
-                </p>
-            </div>
-            <div id="point2">
-                <h2>Пункт 2</h2>
-                <p>
-                    ojhnioujnpoijsndpvojnlkjmnv;lknspojvn;lknxl;nvs vknsbkvnlkjsnlk n skdnlkjnslkjdnlkjnlkjnslkdjn sdlkjnlskdjnlkj sl lkjsd nlkjnlkjnlkjnkjn
-                </p>
-            </div>
+    	<div class="content">
+    	<div id="price">
+    	<h2 >Цены и услуги</h2>
+    	<div class="container">
+		  
+		           
+		  <table class="table table-striped">
+		    <thead>
+		      <tr>
+		        <th>Услуга</th>
+		        <th>Цена</th>
+		        
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>оапнен7окео</td>
+		        <td>23454235</td>
+		       
+		      </tr>
+		      <tr>
+		        <td>оапнен7окео</td>
+		        <td>23454235</td>
+		        
+		      </tr>
+		      <tr>
+		        <td>оапнен7окео</td>
+		        <td>23454235</td>
+		        
+		      </tr>
+		    </tbody>
+		  </table>
+		</div>
+
+    	</div>
+        <div id="what">
+        <h2>Что это?</h2>
+        <p>
+        	kjnlkjnlkjsnvkjnsfvsvlkm;lskmfdv;lkm;lkfsmln
+        	sdvsdfvsfd
+        	vsfvsfvsflkvjknskmlfkvmlkfvsfbsfvgndgstgslgfjhjhiuhsd
+        	gfsfvjnslfkjvnlkjnlfkjnvlkjnldfkjnvlkj
+        </p>
         </div>
+        <div id="point3">
+        <h2>Пункт 2</h2>
+        <p>
+        	ojhnioujnpoijsndpvojnlkjmnv;lknspojvn;lknxl;nvs
+        	vknsbkvnlkjsnlk
+        	n skdnlkjnslkjdnlkjnlkjnslkdjn
+        	sdlkjnlskdjnlkj sl lkjsd nlkjnlkjnlkjnkjn
+        </p>
+    	</div>
+        </div>
+         <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </main>
-
-    <footer class="py-5 bg-own">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md">
-                    <h2>Крутецкое название</h2>
-                    <small class="d-block mb-3 text-muted">© 2017-2018 &nbsp; &nbsp; &nbsp; &nbsp; Все права защищены</small>
-                </div>
-
-                <div class="float-right">
-                    <h5>Контакты</h5>
-                    <ul class="list-unstyled text-small">
-                        <li>
-                            <p class="text-muted">email</p>
-                        </li>
-                        <li>
-                            <p class="text-muted">+00000000000</p>
-                        </li>
-                        <li>
-                            <p class="text-muted">+00000000000</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    
+<footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+            <h2>Крутецкое название</h2>
+          <small class="d-block mb-3 text-muted">© 2017-2018 &nbsp; &nbsp; &nbsp; &nbsp; Все права защищены</small>
         </div>
+      
+        <div class="float-right">
+          <h5>Контакты</h5>
+          <ul class="list-unstyled text-small">
+            <li><p class="text-muted">email</p></li>
+            <li><p class="text-muted">+00000000000</p></li>
+            <li><p class="text-muted">+00000000000</p></li>
+          </ul>
+        </div>
+      </div>
     </footer>
+    
 
-
-    <!-- Bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <!--Bootstrap lightbox js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-
-    <script>
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
-
-    </script>
-
-    <!--Custom scripts -->
+    
+    <script src="scripts/script.js"></script>
 
 </body>
-
 
 </html>
