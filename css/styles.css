@@ -134,8 +134,8 @@ footer {
 
 .content {
     position: relative;
-    width: 600px;
-    margin: 0 30%;
+    width: 60%;
+    margin: 0 0 0 25%;
     box-sizing: border-box;
     margin-top: 100px;
     margin-bottom: 200px;
@@ -149,6 +149,7 @@ footer {
 #what{
     box-sizing: border-box;
     margin-top: 50px;
+
 }
 #point2{
     box-sizing: border-box;
