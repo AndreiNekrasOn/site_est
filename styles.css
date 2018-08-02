@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Scroll-bar trick, look here for more: https://css-tricks.com/almanac/properties/s/scrollbar/*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.jumbotron {
+    position: relative;
+    background-repeat: repeat;
+    color: white;
+    margin: 0px !important;
+}
+
+.jumbotron h2 {
+    width: 30px;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    color: white !important
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/jumbotron-city.jpg");
+
+    /* Set a specific height */
+    height: 450px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.bg-own{
+    background-color: lightskyblue;
+}
+
+.CTA {
+    position: absolute;
+    background-color: aquamarine;
+    right: 50px;
+    border-radius: 20%;
+    border: none;
+}
+
+
+.CTA:hover {
+    background-color: palegreen;
+}
+
+.contacts {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    right: 50px;
+    bottom: 8px;
+    color: black;
+    border-radius: 30px;
+    
+}
+.navbar {
+    position: relative;
+    margin-top: 0px;
+    padding-top: 0px;
+    box-shadow: 0 8px 20px 2px #DEDEE3;
+}
+
+.nav-item.dropdown{
+    margin-right: 50px;   
+}
+
+.avatar {
+    border-radius: 100%;
+}
+
+#description {
+    margin-top: 50px;
+    position: relative;
+    height: 220px;
+    overflow-y: scroll;
+    text-overflow: clip;
+}
+
+#description .avatar {
+    position: absolute;
+    left: 0;
+}
+#description p {
+    position: absolute;
+    right: 10px;
+    width: 60%;
+}
+
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.partner-logo {
+    border-radius: 100%;
+}
+
+
+
+footer {
+    box-shadow: 0 -8px 20px 2px #DEDEE3;
+}
+
+/*-----------------------------------------------*/
+
+.content {
+    position: relative;
+    width: 600px;
+    margin: 0 30%;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+}
+#price{
+    box-sizing: border-box;
+    margin: auto;
+
+}
+#what{
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+#point2{
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.content p{
+    padding-left: 15px;
+}
