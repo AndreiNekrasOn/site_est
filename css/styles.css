@@ -137,7 +137,8 @@ footer {
     width: 600px;
     margin: 0 30%;
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
 
 }
 #price{
@@ -152,4 +153,7 @@ footer {
 #point2{
     box-sizing: border-box;
     margin-top: 50px;
+}
+.content p{
+    padding-left: 15px;
 }
